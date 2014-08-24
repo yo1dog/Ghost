@@ -72,7 +72,7 @@
                     });
 
                     text = text.replace(/\{gfm-js-extract-pre-([0-9]+)\}/gm, function (x, y) {
-                        return "\n\n" + extractions[y];
+                        return extractions[y];
                     });
 
 
@@ -138,7 +138,7 @@
                     });
 
                     text = text.replace(/\{gfm-js-extract-ref-url-([0-9]+)\}/gi, function (x, y) {
-                        return "\n\n" + refExtractions[y];
+                        return refExtractions[y];
                     });
 
                     return text;
