@@ -459,7 +459,9 @@ var path           = require('path'),
                         'core/shared/lib/showdown/extensions/ghostgfm.js',
                         
                         'core/shared/lib/prism/prism.js',
-                        'core/shared/lib/showdown/extensions/prismsyntaxhighlighter.js'
+                        'core/shared/lib/showdown/extensions/prismsyntaxhighlighter.js',
+                        
+                        'core/shared/lib/showdown/extensions/githubinlinecode.js'
                     ]
                 },
 
@@ -497,7 +499,9 @@ var path           = require('path'),
                         'core/shared/lib/showdown/extensions/ghostgfm.js',
                         
                         'core/shared/lib/prism/prism.js',
-                        'core/shared/lib/showdown/extensions/prismsyntaxhighlighter.js'
+                        'core/shared/lib/showdown/extensions/prismsyntaxhighlighter.js',
+                        
+                        'core/shared/lib/showdown/extensions/githubinlinecode.js'
                     ]
                 }
             },

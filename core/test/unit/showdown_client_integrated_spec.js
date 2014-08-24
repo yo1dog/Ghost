@@ -12,8 +12,9 @@ var should      = require('should'),
     Showdown    = require('showdown'),
     ghostgfm            = require('../../shared/lib/showdown/extensions/ghostgfm'),
     ghostimagepreview   = require('../../shared/lib/showdown/extensions/ghostimagepreview'),
+    githubinlinecode    = require('../../shared/lib/showdown/extensions/githubinlinecode'),
 
-    converter   = new Showdown.converter({extensions: [ghostimagepreview, ghostgfm]});
+    converter   = new Showdown.converter({extensions: [ghostimagepreview, ghostgfm, githubinlinecode]});
 
 // To stop jshint complaining
 should.equal(true, true);

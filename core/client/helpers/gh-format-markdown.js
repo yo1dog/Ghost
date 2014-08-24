@@ -1,7 +1,7 @@
 /* global Showdown, Handlebars, html_sanitize*/
 import cajaSanitizers from 'ghost/utils/caja-sanitizers';
 
-var showdown = new Showdown.converter({extensions: ['ghostimagepreview', 'ghostgfm', 'prismsyntaxhighlighter']});
+var showdown = new Showdown.converter({extensions: ['ghostimagepreview', 'ghostgfm', 'prismsyntaxhighlighter', 'githubinlinecode']});
 
 var formatMarkdown = Ember.Handlebars.makeBoundHelper(function (markdown) {
     var escapedhtml = '';
