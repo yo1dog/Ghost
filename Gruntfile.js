@@ -456,7 +456,10 @@ var path           = require('path'),
                         'bower_components/google-caja/html-css-sanitizer-bundle.js',
 
                         'core/shared/lib/showdown/extensions/ghostimagepreview.js',
-                        'core/shared/lib/showdown/extensions/ghostgfm.js'
+                        'core/shared/lib/showdown/extensions/ghostgfm.js',
+                        
+                        'core/shared/lib/prism/prism.js',
+                        'core/shared/lib/showdown/extensions/prismsyntaxhighlighter.js'
                     ]
                 },
 
@@ -491,7 +494,10 @@ var path           = require('path'),
                         'bower_components/google-caja/html-css-sanitizer-bundle.js',
 
                         'core/shared/lib/showdown/extensions/ghostimagepreview.js',
-                        'core/shared/lib/showdown/extensions/ghostgfm.js'
+                        'core/shared/lib/showdown/extensions/ghostgfm.js',
+                        
+                        'core/shared/lib/prism/prism.js',
+                        'core/shared/lib/showdown/extensions/prismsyntaxhighlighter.js'
                     ]
                 }
             },
