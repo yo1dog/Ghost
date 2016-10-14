@@ -7022,9 +7022,9 @@
       "resolved": "https://registry.npmjs.org/should-http/-/should-http-0.0.4.tgz"
     },
     "showdown-ghost": {
-      "version": "0.3.6",
-      "from": "showdown-ghost@0.3.6",
-      "resolved": "https://registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.3.6.tgz"
+      "version": "0.4.0",
+      "from": "showdown-ghost@0.4.0",
+      "resolved": "https://registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.4.0.tgz"
     },
     "sinon": {
       "version": "1.17.6",
