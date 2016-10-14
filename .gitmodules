@@ -4,3 +4,6 @@
 [submodule "core/client"]
 	path = core/client
 	url = https://github.com/TryGhost/Ghost-Admin.git
+[submodule "content/themes/casper-custom"]
+	path = content/themes/casper-custom
+	url = https://github.com/yo1dog/Casper
