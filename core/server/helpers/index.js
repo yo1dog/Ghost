@@ -37,6 +37,7 @@ coreHelpers.tags = require('./tags');
 coreHelpers.title = require('./title');
 coreHelpers.twitter_url = require('./twitter_url');
 coreHelpers.url = require('./url');
+coreHelpers.trim_proto  = require('./trim_proto');
 
 // Specialist helpers for certain templates
 coreHelpers.input_password = require('./input_password');
@@ -94,6 +95,7 @@ registerHelpers = function (adminHbs) {
     registerThemeHelper('body_class', coreHelpers.body_class);
     registerThemeHelper('content', coreHelpers.content);
     registerThemeHelper('date', coreHelpers.date);
+    registerThemeHelper('trim_proto', coreHelpers.trim_proto);
     registerThemeHelper('encode', coreHelpers.encode);
     registerThemeHelper('excerpt', coreHelpers.excerpt);
     registerThemeHelper('foreach', coreHelpers.foreach);
